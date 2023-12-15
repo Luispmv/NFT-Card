@@ -23,7 +23,7 @@ body{
     height: 150vh;
 }
 .card{
-    width: 90%;
+    max-width: 300px;
     background-color: var(--cardBackground);
     display: flex;
     flex-direction: column;
@@ -126,20 +126,4 @@ body{
 .userContainer p strong:hover{
     color: var(--nftCyan);
     cursor: pointer;
-}
-@media(min-width:768px){
-    .card{
-        width: 45%;
-    }
-}
-@media(min-width:1024px){
-    .card{
-        width: 25%;
-    }
-}
-@media(min-width:1700px){
-    .card{
-        width: 15%;
-        transform: scale(2.5);
-    }
 }
